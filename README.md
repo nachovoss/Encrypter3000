@@ -1,4 +1,4 @@
-# Encrypter-3000
+# Encrypter-3000 (sha256 based)
 
 
 Finally a way to generate secure passwords and avoid keyloggers!
