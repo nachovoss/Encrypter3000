@@ -7,6 +7,8 @@ def openscript():
 
 window = Tk()
 
+window.maxsize(width=300, height=300)
+window.minsize(width=300, height=300)
 window.geometry("300x300")
 filename = PhotoImage(file = "D:\\PythonProjects\\passwordhasher\\lock.png")
 background_label = Label(window, image=filename)
