@@ -10,10 +10,10 @@ window = Tk()
 window.maxsize(width=300, height=300)
 window.minsize(width=300, height=300)
 window.geometry("300x300")
-filename = PhotoImage(file = "D:\\PythonProjects\\passwordhasher\\lock.png")
+filename = PhotoImage(file = "D:\\YourPath\\passwordhasher\\lock.png")
 background_label = Label(window, image=filename)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
-window.iconbitmap(r'D:\\PythonProjects\\passwordhasher\\Lock.ico')
+window.iconbitmap(r'D:\\YourPath\\passwordhasher\\Lock.ico')
 
 
 
